@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>Html tags</title>
+</head>
+<body>
+<center><h1>Hogwards School</h1></center>
+<img src="C:\Users\Albin\Desktop\ali\hogwards.jpg" width="200px" height="200px">
+</body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Form Example</title>
+</head>
+<body>
+<form>
+<h1><u>HTML FORMS</u></h1>
+<h2>TEXT BOX</h2>
+<lable for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname" value="Amal"><br><br>
+<lable for="lname">Last Name:</label><br>
+<input type="text" id="lname" name="lname" value="Jyothi"><br><br>
+
+<h2>RADIO BOX</h2>
+<input type="radio" id="html" name="Favourite language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="css" name="" value="CSS">
+<label for="css">CSS</label><br>
+<input type="radio" id="java" name="" value="JAVA">
+<label for="java">JAVA</label><br>
+<input type="radio" id="python" name="" value="PYTHON">
+<label for="python">PYTHON</label><br>
+<input type="radio" id="js" name="" value="JAVASCRIPT">
+<label for="js">JAVASCRIPT</label><br>
+
+<h2>CHECKBOX</h2>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="VOLVO">
+<label for="vehicle1">I HAVE VOLVO</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="i10">
+<label for="vehicle2">i10</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="NANO">
+<label for="vehicle3">NANO</label><br>
+<input type="checkbox" id="vehicle4" name="vehicle4" value="Maruti">
+<label for="vehicle4">MARUTI</label><br>
+<input type="checkbox" id="vehicle5" name="vehicle5" value="VOLVO">
+<label for="vehicle5">BMW</label><br><br>
+
+<h2>DROP DOWN</h2>
+<label for="phone">Choose Your Phone Brand:</label>
+<select id="phone" name="phone" size="3" multiple>
+<option value="Apple" selected>Apple</option>
+<option value="Vivo">Vivo</option>
+<option value="Oppo">Oppo</option>
+<option value="Poco">Poco</option>
+<option value="Samsung">Samsung</option>
+</select><br><br><br>
+
+<textarea name="message" rows="10" cols="10">
+An Investment In Knowledge Pays The Best Interest.
+</textarea><br><br>
+
+<h2>BUTTON</h2>
+<button type="button" onclick="alert('HELLO')">CLICK ME</button><br><br>
+
+<h2>DATALIST</h2>
+<input list="fruits">
+<datalist id="fruits">
+<option value="Mango">
+<option value="Grapes">
+<option value="Orange">
+<option value="Apple">
+<option value="Strawberry">
+</datalist><br><br><br>
+
+<label for="username">USERNAME :</label><br>
+<input type="text" id="username" name="username"><br><br>
+<label for="password">PASSWORD :</label><br>
+<input type="password" id="password" name="password"><br><br>
+
+<label for="dob">BIRTHDAY :</label><br>
+<input type="date" id="dob" name="dob"><br><br>
+
+<label for="email">Enter Email Id :</label><br>
+<input type="email" id="email" name="email"><br><br>
+
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
